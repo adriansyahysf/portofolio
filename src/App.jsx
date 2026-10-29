@@ -1,4 +1,9 @@
 import { useEffect, useRef, useState } from "react";
+import sentimentImg from "./assets/sentimentapp.png";
+import laptimeImg from "./assets/Laptime.png";
+import genshinImg from "./assets/Genshin.png";
+import videoAddImg from "./assets/Videoadd.png";
+import rentalImg from "./assets/rental.jpg";
 
 // ---------- Edit your content here ----------
 const PROFILE = {
@@ -32,7 +37,7 @@ const HERO_POSTER = "/hero-poster.jpg"; // optional still image shown while the 
 const PROJECTS = [
   {
     title: "Sentiment App",
-    image: "src/assets/sentimentapp.png",
+    image: sentimentImg,
     description: "an app that predict your game review sentiment",
     tags: ["Python", "BERT"],
     demo: "https://huggingface.co/spaces/Bimbim67/SteamReviewSentimen",
@@ -40,28 +45,28 @@ const PROJECTS = [
   },
   {
     title: "Laptime Prediction",
-    image: "src/assets/Laptime.png",
+    image: laptimeImg,
     description: "a project for laptime prediction based on each sector in formula 1",
     tags: ["LTSM", "Python"],
     code: "https://github.com/adriansyahysf/F1_QualificationPrediction",
   },
   {
     title: "Genshin Impact Magazine",
-    image: "src/assets/Genshin.png",
+    image: genshinImg,
     description: "a magazine that tells about genshin 3.8 update news",
     tags: ["Indesign", "Photoshop"],
     demo: "https://drive.google.com/file/d/1UY7tApkla_vNL2-c2FIyY8hZtzieh435/view?usp=sharing",
   },
   {
     title: "Video Add",
-    image: "src/assets/Videoadd.png",
+    image: videoAddImg,
     description: "a short add project for a energy drink ",
     tags: ["After Effects", "Premiere Pro"],
     demo: "https://drive.google.com/file/d/1hWZsK9ObfnmrDub9mcu-vOdz18e8asWq/view?usp=sharing",
   },
   {
     title: "Rental Game",
-    image: "src/assets/rental.jpg",
+    image: rentalImg,
     description: "a database about game renting, only for code",
     tags: ["MySQL", "XAMPP"],
     code: "https://github.com/adriansyahysf/rental_game",
