@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'redaction-35' sans-serif;
+}
+
+@keyframes gradient-shift {
+  to {
+    background-position: 200% 50%;
+  }
+}
